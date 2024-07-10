@@ -1,17 +1,28 @@
 <header id="home" class="header">
-  <nav class="header__nav container">
-    <div class="header__logo">Stickerz</div>
-    <div class="header__menu menu">
-      <a href="index.html" class="menu__item">Home</a>
-      <a href="#products" class="menu__item">Products</a>
-      <a href="#contacts" class="menu__item">Contacts</a>
-      <a href="cart.html" class="menu__item">Cart</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sticker</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#header-nav"
+        aria-controls="header-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="header-nav">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link" href="#">Contacts</a>
+          <a class="nav-link" href="cart.html">Cart</a>
+        </div>
+      </div>
     </div>
   </nav>
-  <div class="header__banner container">
-    <h1 class="header__title">Stickerz</h1>
-    <div class="header__buttons">
-      <a href="#products" class="button"> Shop now </a>
-    </div>
-  </div>
 </header>
